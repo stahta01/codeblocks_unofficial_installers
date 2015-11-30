@@ -26,7 +26,7 @@
 # - probably adjust "RequestExecutionLevel admin/user" -> see below #
 #####################################################################
 
-Name CodeBlocks
+Name TimS_CodeBlocks
 XPStyle on
 
 # Uncomment the following line to remove the
@@ -60,17 +60,17 @@ XPStyle on
 # Defines #
 ###########
 !define REGKEY           "SOFTWARE\$(^Name)"
-!define VERSION          15.xx
-!define COMPANY          "The Code::Blocks Team"
-!define URL              http://www.codeblocks.org
+!define VERSION          GIT
+!define COMPANY          "TimS Code::Blocks Build"
+!define URL              https://github.com/stahta01/codeblocks_unofficial_installers/wiki
 
 ###########
 # Folders #
 ###########
 # Possibly required to adjust manually:
 # (Folder with wxWidgets DLL - unicode, monolithic.)
-!define WX_BASE          C:\Devel\CodeBlocks\Releases\CodeBlocks_15xx
-!define WX_VER           28
+!define WX_BASE          CodeBlocks\src\output30
+!define WX_VER           30
 # Possibly required to adjust manually:
 # (CodeBlocks binary folder - the one where codeblocks.exe is.)
 !define CB_BASE          C:\Devel\CodeBlocks\Releases\CodeBlocks_15xx
